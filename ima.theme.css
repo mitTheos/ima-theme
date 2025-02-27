@@ -1,0 +1,205 @@
+@font-face {
+    font-family: fira;
+    font-style: normal;
+    src: url(https://github.com/mozilla/Fira/blob/master/ttf/FiraMono-Medium.ttf)
+}
+
+@font-face {
+  font-family: 'Fira Code';
+  src: url('woff2/FiraCode-Regular.woff2') format('woff2'),
+    url("woff2/FiraCode-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+    --crust: #11111b;
+    --mantle: #181825;
+    --base: #1e1e2e;
+    --surface0:#313244;
+    --mauve: #cba6f7;
+    --mauve-rgb: 203, 166, 247;
+    --lavender-rgb: 180, 190, 254;
+
+    --background-primary: var(--mantle);
+    --background-secondary: var(--mantle);
+    --background-secondary-alt: var(--mantle);
+    --background-tertiary: var(--surface0);
+
+    --accent: var(--mauve-rgb);
+    --accent-alt: var(--mauve-rgb);
+}
+
+/* base */
+.base_c48ade {
+    border-radius: 18px 0 0 18px;
+}
+
+/* Scroll */
+.messagesWrapper__36d07 ::-webkit-scrollbar {
+	width: 14px !important;
+}
+
+.messagesWrapper__36d07 ::-webkit-scrollbar-thumb {
+	border-radius: 8px !important;
+	border: 3px solid transparent !important;
+	background-color: rgba(var(--accent-alt), 0.7) !important;
+}
+
+.messagesWrapper__36d07 ::-webkit-scrollbar-track {
+	visibility: visible !important;
+	border-radius: 8px !important;
+	border: 3px solid transparent !important;
+	background-color: rgba(0, 0, 0, 0.3) !important;
+	background-clip: padding-box !important;
+}
+
+.messagesWrapper__36d07 .none-2Eo-qx::-webkit-scrollbar {
+	display: none !important;
+}
+
+/* Content */
+.roleMention__75297:not([style]),
+.channelMention,
+.mention {
+	transition: 150ms ease;
+	color: rgba(var(--accent), 1) !important;
+	background-color: rgba(var(--accent), 0.3);
+	padding: 0 5px;
+	border-radius: 5px;
+}
+
+.roleMention__75297:not([style]):hover,
+.channelMention:hover,
+.mention:hover {
+	background-color: rgba(var(--lavender-rgb), 0.3) !important;
+}
+
+.message__5126c.mentioned__5126c {
+    --background-mentioned: rgba(var(--lavender-rgb), 0.1);
+}
+.message__5126c.mentioned__5126c.selected__5126c,
+.message__5126c.mentioned__5126c:hover {
+     --background-mentioned-hover: rgba(var(--lavender-rgb), 0.15);
+} 
+
+.message__5126c.mentioned__5126c:before {
+    --info-warning-foreground: rgba(var(--accent), 0.8);
+}
+
+/* message actions */
+div[aria-label*="Message Actions"] > div {
+    --background-nested-floating: var(--surface0);
+}
+
+/* chat box */
+.buttonContainer_e6e74f button,
+.scrollableContainer__74017 {
+    background-color: var(--surface0);
+}
+
+/* emoji/gif/sticker picker */
+#emoji-picker-tab-panel,
+.contentWrapper__08434 {
+    --background-secondary: var(--mantle)
+}
+
+#emoji-picker-tab-panel .container_a45028,
+.contentWrapper__08434 .container_a45028 {
+    --background-tertiary: var(--surface0);
+}
+
+#emoji-picker-tab-panel .wrapper__4e6ce,
+.contentWrapper__08434 .wrapper__4e6ce {
+    border-radius: 0 12px;
+    --background-tertiary: var(--surface0);
+}
+
+#emoji-picker-tab-panel .inspector_aeaaeb,
+.contentWrapper__08434 .inspector_aeaaeb {
+    --background-secondary-alt: var(--mantle);
+}
+
+/* date picker */
+.vc-st-format-select,
+.vc-st-date-picker {
+    --input-background: var(--surface0);
+}
+
+.flex__7c0ba {
+    --modal-footer-background: var(--mantle)
+}
+
+/* remove chatbox gift etc. buttons */
+.channelAppLauncher_e6e74f,
+.button__201d5[aria-label="Send a gift"],
+.button__201d5[aria-label="Open sticker picker"],
+.button__201d5[aria-label="Open GIF picker"] {
+    display: none;
+}
+
+/* channel list */
+.modeSelected__2ea32:hover {
+    --channel-icon: var(--mauve) !important;
+    color: var(--mauve);
+}
+
+.modeSelected__2ea32:hover .icon__2ea32,
+.modeSelected__2ea32:hover .name__2ea32 {
+    color: rgb(var(--lavender-rgb));
+}
+.modeSelected__2ea32 .icon__2ea32,
+.modeSelected__2ea32 .name__2ea32 {
+    color: var(--mauve);
+}
+
+/* servers */
+.pill_e5445c .item__58105 {
+    background-color: var(--mauve);
+}
+
+/* friends tab */
+.container__133bf section[role=navigation] {
+    --__header-bar-background: var(--mantle);
+}
+
+/* events */
+.root__49fc1 {
+    --modal-background: var(--mantle);
+    --background-secondary: var(--surface0);
+}
+
+/* top content bar */
+.toolbar__9293f div[aria-label="Notification Settings"],
+.toolbar__9293f a { /* help */
+    display: none;
+}
+
+div[id*="popout_"] .container_d9c882,
+div[aria-label="Pinned Messages"],
+div[aria-label="Inbox"] {
+    --background-secondary: var(--mantle);
+}
+
+div[id*="popout_"] .container__6764b,
+div[aria-label="Pinned Messages"] .messageGroupWrapper__45690,
+div[aria-label="Inbox"] .messageContainer__95796 {
+    --background-primary: rgba(var(--lavender-rgb), 0.1);
+}
+
+div[id*="popout_"] .header_d9c882 {
+    --background-tertiary: var(--mantle);
+}
+
+div[id*="popout_"] .searchBox_d9c882 {
+    --background-secondary: var(--surface0);
+}
+
+/* dm page */
+.channel__972a0:not([aria-posinset="1"]):has(div[class*="linkButton"]) { /* only show friends tab */
+    display: none;
+}
+
+.container__675e5 { /* play again */
+    display: none;
+}
