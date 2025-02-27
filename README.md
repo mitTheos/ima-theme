@@ -10,4 +10,4 @@ To install this theme simply copy and paste this URL into the settings/Themes/On
 ```
 https://mittheos.github.io/ima-theme/ima.theme.css
 ```
- <img align="center" width="80%" src="imgs/install.png" />
+<img src="imgs/install.png" />
