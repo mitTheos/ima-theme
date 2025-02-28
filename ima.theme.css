@@ -202,3 +202,16 @@ div:not(.custom-profile-theme) > .inner_c0bea0.panel_c0bea0 {
 div:not(.custom-profile-theme) > .inner_c0bea0 .body__747b1 .panel_c0bea0 {
     background-color: var(--surface0);
 }
+
+/* threads */
+.themed__9293f[aria-label="Channel header"] {
+    --__header-bar-background: var(--mantle);
+}
+
+.container_f369db {
+    --bg-base-primary: var(--mantle);
+}
+
+.mainCard_f369db {
+    --bg-mod-faint: var(--surface0);
+}
