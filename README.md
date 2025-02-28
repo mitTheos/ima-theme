@@ -11,3 +11,9 @@ To install this theme simply copy and paste this URL into the settings/Themes/On
 https://mittheos.github.io/ima-theme/ima.theme.css
 ```
 <img src="imgs/install.png" />
+
+## Showcase
+
+<img src="imgs/showcase1.png" />
+<img src="imgs/showcase2.png" />
+<img src="imgs/showcase3.png" />
