@@ -195,10 +195,10 @@ div[id*="popout_"] .searchBox_d9c882 {
 }
 
 /* dm profile panel*/
-.inner_c0bea0.panel_c0bea0 {
+div:not(.custom-profile-theme) > .inner_c0bea0.panel_c0bea0 {
     background-color: var(--mantle);
 }
 
-.inner_c0bea0 .body__747b1 .panel_c0bea0 {
+div:not(.custom-profile-theme) > .inner_c0bea0 .body__747b1 .panel_c0bea0 {
     background-color: var(--surface0);
 }
