@@ -1,17 +1,3 @@
-@font-face {
-    font-family: fira;
-    font-style: normal;
-    src: url(https://github.com/mozilla/Fira/blob/master/ttf/FiraMono-Medium.ttf)
-}
-
-@font-face {
-  font-family: 'Fira Code';
-  src: url('woff2/FiraCode-Regular.woff2') format('woff2'),
-    url("woff2/FiraCode-Regular.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
 :root {
     --crust: #11111b;
     --mantle: #181825;
@@ -156,6 +142,10 @@ div[aria-label*="Message Actions"] > div {
 /* servers */
 .pill_e5445c .item__58105 {
     background-color: var(--mauve);
+}
+
+.name__2ea32 {
+    font-family: 'FiraCode Nerd Font';
 }
 
 /* friends tab */
