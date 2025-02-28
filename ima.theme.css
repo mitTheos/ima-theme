@@ -193,3 +193,12 @@ div[id*="popout_"] .searchBox_d9c882 {
 .container__675e5 { /* play again */
     display: none;
 }
+
+/* dm profile panel*/
+.inner_c0bea0.panel_c0bea0 {
+    background-color: var(--mantle);
+}
+
+.inner_c0bea0 .body__747b1 .panel_c0bea0 {
+    background-color: var(--surface0);
+}
